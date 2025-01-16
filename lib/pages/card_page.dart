@@ -124,8 +124,8 @@ class CardPage extends StatelessWidget {
           ),
           //container de la cards 3//
           Container(
-            margin: EdgeInsets.all(20.0),
-            padding: EdgeInsets.all(35.0),
+            margin: EdgeInsets.symmetric(horizontal: 16.0, vertical: 16.0),
+            padding: EdgeInsets.symmetric(horizontal: 16.0, vertical: 16.0),
             decoration: BoxDecoration(
               color: Colors.white,
               borderRadius: BorderRadius.circular(20.0),
@@ -160,13 +160,13 @@ class CardPage extends StatelessWidget {
                   SizedBox(width: 25.0),
                   // Imagen a la izquierda
                   Container(
-                    width: 130, // Ajusta el tamaño de la imagen
-                    height: 100,
+                    width: 140.0, // Ajusta el tamaño de la imagen
+                    height: 100.0,
                     decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(15.0),
+                      borderRadius: BorderRadius.circular(16.0),
                       image: DecorationImage(
                         image: AssetImage(
-                          "assets/images/linda1.jpeg",
+                          "assets/images/bella.jpg",
                         ),
                         fit: BoxFit.cover,
                       ),
